@@ -5,6 +5,10 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
+/*
+ * 백준 실버5 ( https://www.acmicpc.net/problem/10814 )
+ */
+
 // 메모리: 204,368KB , 시간: 656ms
 public class Main2 {
 	

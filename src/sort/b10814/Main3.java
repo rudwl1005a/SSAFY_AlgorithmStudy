@@ -4,6 +4,10 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+/*
+ * 백준 실버5 ( https://www.acmicpc.net/problem/10814 )
+ */
+
 // 출처 : 백준 nogy21님의 코드(https://www.acmicpc.net/source/38759215)
 // 메모리: 39,044KB , 시간: 476ms
 public class Main3 {

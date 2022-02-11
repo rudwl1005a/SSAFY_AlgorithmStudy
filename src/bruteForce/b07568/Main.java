@@ -1,5 +1,8 @@
 package bruteForce.b07568;
 
+/*
+ * 백준 실버5 ( https://www.acmicpc.net/problem/7568 )
+ */
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;

@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 import java.util.TreeMap;
 
 /*
- * 백준 실버2 (https://www.acmicpc.net/problem/18870)
+ * 백준 실버2 ( https://www.acmicpc.net/problem/18870 )
  */
 public class Main {
 
