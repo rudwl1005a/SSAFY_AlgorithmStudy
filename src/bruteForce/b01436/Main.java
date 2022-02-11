@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 /*
  * 백준 실버5 ( https://www.acmicpc.net/problem/1436 )
  */
+// 메모리: 14,288KB, 실행시간: 272ms
 public class Main {
 
 	static int N, count;
