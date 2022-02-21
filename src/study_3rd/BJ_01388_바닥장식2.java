@@ -1,4 +1,4 @@
-package bfs_dfs.b01388;
+package study_3rd;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 /*
  * 백준 S4 ( https://www.acmicpc.net/problem/1388 )
  */
-public class Main2 {
+public class BJ_01388_바닥장식2 {
 	// DFS로 풀기
 
 	static int N, M, count;

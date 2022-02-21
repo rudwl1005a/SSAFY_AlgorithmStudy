@@ -1,4 +1,4 @@
-package bfs_dfs.b15240;
+package study_3rd;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
  * 백준 S1 ( https://www.acmicpc.net/problem/15240 )
  * 시간 : 532ms
  */
-public class Main {
+public class BJ_15240_PaintBucket {
 	// BFS로 풀기
 
 	static int N, M, Y, X; // 행, 열, 초기 행, 초기 열

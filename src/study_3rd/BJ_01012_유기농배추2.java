@@ -1,4 +1,4 @@
-package bfs_dfs.b01012;
+package study_3rd;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
  * 백준 S2 ( https://www.acmicpc.net/problem/1012 )
  * 시간 : 160ms
  */
-public class Main2 {
+public class BJ_01012_유기농배추2 {
 	// DFS로 풀기
 
 	static int T, N, M, K, count;

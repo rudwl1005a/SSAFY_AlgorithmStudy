@@ -1,4 +1,4 @@
-package implement.b02216;
+package study_3rd;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 /*
  * 백준 G4 ( https://www.acmicpc.net/problem/2116 )
  */
-public class Main {
+public class BJ_02116_주사위쌓기 {
 
 	static int N, sum, ans; // ans : 주사위 옆면의 최대 값
 	static int[][] dice;

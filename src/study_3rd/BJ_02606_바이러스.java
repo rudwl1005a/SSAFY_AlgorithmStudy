@@ -1,4 +1,4 @@
-package bfs_dfs.b02606;
+package study_3rd;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 /*
  * 백준 S3 ( https://www.acmicpc.net/problem/2606 )
  */
-public class Main {
+public class BJ_02606_바이러스 {
 	// DFS
 
 	static int N, M, ans; // 컴퓨터 수, 연결 쌍 수
