@@ -1,8 +1,5 @@
-package bruteForce.b07568;
+package study_2nd;
 
-/*
- * 백준 실버5 ( https://www.acmicpc.net/problem/7568 )
- */
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
@@ -13,7 +10,10 @@ class Person {
 	int rank;
 }
 
-public class Main {
+/*
+ * 백준 실버5 ( https://www.acmicpc.net/problem/7568 )
+ */
+public class BJ_07568_덩치 {
 	
 	static int N, cnt;
 	static Person[] person;

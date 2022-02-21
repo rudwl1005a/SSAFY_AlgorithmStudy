@@ -1,4 +1,4 @@
-package bruteForce.b01436;
+package study_2nd;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
  * 티스토리 풀이 ( https://fbtmdwhd33.tistory.com/20 )
  */
 // 메모리: 86,152KB, 실행시간: 316ms -> 코드는 깔끔한데 메모리랑 시간이 늘었음
-public class Main2 {
+public class BJ_01436_영화감독숌2 {
 
 	static int N, count;
 	public static void main(String[] args) throws Exception {

@@ -1,4 +1,4 @@
-package sort.b10814;
+package study_2nd;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
  */
 
 // 메모리: 56,184KB, 시간: 1676ms
-public class Main {
+public class BJ_10814_나이순정렬 {
 	
 	static class Person {
 		int age;

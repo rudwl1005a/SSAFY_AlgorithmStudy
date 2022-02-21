@@ -1,4 +1,4 @@
-package bruteForce.b01436;
+package study_2nd;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
  * 백준 실버5 ( https://www.acmicpc.net/problem/1436 )
  */
 // 메모리: 14,288KB, 실행시간: 272ms
-public class Main {
+public class BJ_01436_영화감독숌 {
 
 	static int N, count;
 	public static void main(String[] args) throws Exception {

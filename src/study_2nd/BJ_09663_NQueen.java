@@ -1,4 +1,4 @@
-package bruteForce.b09663;
+package study_2nd;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
  * 백준 골드5 ( https://www.acmicpc.net/problem/9663 )
  * 메모리 : 15532KB, 시간: 13328ms
  */
-public class Main {
+public class BJ_09663_NQueen {
 
 	static int N, count;
 	static boolean[][] chess;

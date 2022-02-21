@@ -1,4 +1,4 @@
-package sort.b18870;
+package study_2nd;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -10,7 +10,7 @@ import java.util.TreeMap;
 /*
  * 백준 실버2 ( https://www.acmicpc.net/problem/18870 )
  */
-public class Main {
+public class BJ_18870_좌표압축 {
 
 	static int N, cnt;
 	static int[] num, temp;

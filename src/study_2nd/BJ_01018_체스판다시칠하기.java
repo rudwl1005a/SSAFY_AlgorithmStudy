@@ -1,4 +1,4 @@
-package bruteForce.b01018;
+package study_2nd;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 /*
  * 백준 실버5 ( https://www.acmicpc.net/problem/1018 )
  */
-public class Main {
+public class BJ_01018_체스판다시칠하기 {
 	
 	static char[][] B = { {'B','W','B','W','B','W','B','W'},
 						  {'W','B','W','B','W','B','W','B'},
