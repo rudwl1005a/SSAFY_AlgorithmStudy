@@ -1,9 +1,12 @@
-package math.b02455;
+package study_1st;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class Main {
+/*
+ * 백준 B3 ( https://www.acmicpc.net/problem/2455 )
+ */
+public class BJ_02455_지능형기차 {
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		

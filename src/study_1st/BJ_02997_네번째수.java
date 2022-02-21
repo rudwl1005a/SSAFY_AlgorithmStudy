@@ -1,11 +1,14 @@
-package math.b02997;
+package study_1st;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Main {
+/*
+ * 백준 B3 ( https://www.acmicpc.net/problem/2997 )
+ */
+public class BJ_02997_네번째수 {
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer token = new StringTokenizer(br.readLine(), " ");

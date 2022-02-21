@@ -1,10 +1,13 @@
-package math.b10250;
+package study_1st;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main {
+/*
+ * 백준 B3 ( https://www.acmicpc.net/problem/10250 )
+ */
+public class BJ_10250_ACM호텔 {
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int T = Integer.parseInt(br.readLine());

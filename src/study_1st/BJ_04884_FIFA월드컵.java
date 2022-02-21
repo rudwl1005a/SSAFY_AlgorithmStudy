@@ -1,10 +1,13 @@
-package math.b04884;
+package study_1st;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main {
+/*
+ * 백준 B1 ( https://www.acmicpc.net/problem/4884 )
+ */
+public class BJ_04884_FIFA월드컵 {
 	public static void main(String[] args) throws Exception {
 //		long curLong = System.currentTimeMillis(); 
 
