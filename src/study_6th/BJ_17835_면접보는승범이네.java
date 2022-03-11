@@ -40,7 +40,7 @@ public class BJ_17835_면접보는승범이네 {
 			st = new StringTokenizer(br.readLine());
 			int from = Integer.parseInt(st.nextToken());
 			int to = Integer.parseInt(st.nextToken());
-			int distance = Integer.parseInt(st.nextToken());
+			long distance = Long.parseLong(st.nextToken());
 			map.get(to).add(new Node(from, distance));
 		}
 
@@ -66,8 +66,8 @@ public class BJ_17835_면접보는승범이네 {
 
 			for (int i = 0; i < map.get(city.n).size(); i++) {
 				Node node = map.get(city.n).get(i);
-				if (!visit[node.from] && dist[city.n] + (long) node.dis < dist[node.from]) {
-					dist[node.from] = dist[city.n] + (long) node.dis;
+				if (!visit[node.from] && dist[city.n] + node.dis < dist[node.from]) {
+					dist[node.from] = dist[city.n] + node.dis;
 					pq.offer(new City(node.from, dist[node.from]));
 				}
 			}
@@ -97,9 +97,9 @@ public class BJ_17835_면접보는승범이네 {
 
 	static class Node {
 		int from;
-		int dis;
+		long dis;
 
-		public Node(int from, int dis) {
+		public Node(int from, long dis) {
 			this.from = from;
 			this.dis = dis;
 		}
