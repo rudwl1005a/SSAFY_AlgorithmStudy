@@ -95,19 +95,13 @@ public class BJ_17835_면접보는승범이네 {
 		}
 	}
 
-	static class Node implements Comparable<Node> {
+	static class Node {
 		int from;
 		int dis;
 
 		public Node(int from, int dis) {
 			this.from = from;
 			this.dis = dis;
-		}
-
-		@Override
-		public int compareTo(Node o) {
-			// TODO Auto-generated method stub
-			return this.dis - o.dis;
 		}
 	}
 }
