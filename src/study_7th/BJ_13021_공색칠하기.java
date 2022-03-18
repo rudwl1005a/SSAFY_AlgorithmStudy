@@ -30,16 +30,10 @@ public class BJ_13021_공색칠하기 {
 			int L = Integer.parseInt(st.nextToken());
 			int R = Integer.parseInt(st.nextToken());
 
-			boolean flag = false;
 			for (int j = L; j < R + 1; j++) {
-				if (arr[j] != cnt) {
-					arr[j] = cnt;
-					flag = true;
-				}
+				arr[j] = cnt;
 			}
-			if (flag) {
-				cnt++;
-			}
+			cnt++;
 		}
 
 
