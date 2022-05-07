@@ -6,6 +6,9 @@ import java.util.ArrayList;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
+/*
+ * 백준 G4 ( https://www.acmicpc.net/problem/1647 )
+ */
 public class BJ_01647_도시분할계획 {
 
 	static int N, M, result, max;

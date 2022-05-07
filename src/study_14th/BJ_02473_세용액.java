@@ -5,6 +5,9 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
+/*
+ * 백준 G4 ( https://www.acmicpc.net/problem/2473 )
+ */
 public class BJ_02473_세용액 {
 
 	static int N;
