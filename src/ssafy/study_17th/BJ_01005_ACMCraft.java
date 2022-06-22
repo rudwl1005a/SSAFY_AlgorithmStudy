@@ -1,4 +1,4 @@
-package boj;
+package ssafy.study_17th;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
