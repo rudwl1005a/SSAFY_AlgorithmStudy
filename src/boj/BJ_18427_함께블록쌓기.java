@@ -6,9 +6,9 @@ import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 /*
- * ¹éÁØ G4 ( https://www.acmicpc.net/problem/18427 )
+ * ë°±ì¤€ G4 ( https://www.acmicpc.net/problem/18427 )
  */
-public class BJ_18427_ÇÔ²²ºí·Ï½×±â {
+public class BJ_18427_í•¨ê»˜ë¸”ë¡ìŒ“ê¸° {
 
 	static int N, M, H, dp[][];
 	static ArrayList<Integer>[] list;
