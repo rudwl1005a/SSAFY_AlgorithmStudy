@@ -5,6 +5,9 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
+/*
+ * 백준 G1 ( https://www.acmicpc.net/problem/2098 )
+ */
 public class BJ_02098_외판원순회2 {
 
 	static final int cannotCycle = 17 * 1000000 + 1;
