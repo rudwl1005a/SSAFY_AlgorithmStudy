@@ -44,14 +44,15 @@ public class BJ_15685_드래곤커브 {
 				}
 			}
 
-			map[y][x] = true;
-			for (int nd : list) {
+			map[y][x] = true; // 현재 좌표점 체크
+			for (int nd : list) { // 커브 돌면서 좌표점 체크
 				y += dy[nd];
 				x += dx[nd];
 				map[y][x] = true;
 			}
 		}
 
+		// 네 점이 모두 true로 체크되어 있는 부분이 있다면 카운트
 		int ans = 0;
 		for (int i = 0; i < 100; i++) {
 			for (int j = 0; j < 100; j++) {
