@@ -1,4 +1,4 @@
-package ssafy.study_23st;
+package ssafy.study_23rd;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
