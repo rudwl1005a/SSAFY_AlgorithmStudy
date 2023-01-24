@@ -6,7 +6,7 @@ import java.util.StringTokenizer;
 
 /*
  * 백준 G5 ( https://www.acmicpc.net/problem/3079 )
- */ 
+ */
 public class BJ_03079_입국심사 {
 
 	static int N, M, arr[], max;
