@@ -32,6 +32,7 @@ public class BJ_03079_입국심사 {
 			long people = 0; // mid시간일때 입국심사 통과할 수 있는 사람 수
 			for (int i = 0; i < N; i++) {
 				people += (mid / arr[i]); // 각 심사대를 통과한 사람 수를 모두 더한 값 저장
+				if(people > M) break; // 오버플로우를 피하기 위한 코드
 			}
 			if (people >= M) { // M보다 같거나 크면 정답이 될 수 있음
 				ans = Math.min(ans, mid); // 정답 될 수 있는 값중 최소값
