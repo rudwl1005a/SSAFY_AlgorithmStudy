@@ -46,7 +46,7 @@ public class BJ_02513_통학버스 {
 						cnt += add.p;
 					} else {
 						left.add(new Apart(add.n, add.p - (K - cnt)));
-						cnt = S;
+						cnt = K;
 					}
 				}
 			} else { // 현재 버스에 다 태울 수 없다면
