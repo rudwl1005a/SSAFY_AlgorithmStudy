@@ -3,6 +3,9 @@ package boj;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+/*
+ * 백준 S2 ( https://www.acmicpc.net/problem/4948 )
+ */
 public class BJ_4948_베르트랑공준 {
 
 	public static boolean[] prime = new boolean[246913];
