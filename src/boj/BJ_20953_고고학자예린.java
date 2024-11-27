@@ -22,7 +22,7 @@ public class BJ_20953_고고학자예린 {
             StringTokenizer st = new StringTokenizer(br.readLine());
             a = Integer.parseInt(st.nextToken());
             b = Integer.parseInt(st.nextToken());
-            ans = (long) (a + b) * (a+b) * (a+b - 1) / 2;
+            ans = (long) ((a + b) * (a+b) * (a+b - 1)) / 2;
             sb.append(ans).append("\n");
         }
 
