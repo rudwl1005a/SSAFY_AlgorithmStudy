@@ -3,7 +3,7 @@ package programmers;
 /**
  * 프로그래머스 ( https://school.programmers.co.kr/learn/courses/30/lessons/388351 )
  */
-public class PG388351_유연근무제 {
+public class PG_388351_유연근무제 {
 
     private class Solution {
         public int solution(int[] schedules, int[][] timelogs, int startday) {
